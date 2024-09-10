@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    char world [] = "hello world";
-    printf("%s", world);
-    return 0;
+char name[30]; 
+printf("Please tell me your name: \n");
+scanf("%s", name);
+printf("Hello %s", name);
+return 0;
 }

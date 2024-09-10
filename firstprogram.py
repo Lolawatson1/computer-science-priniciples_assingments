@@ -1,2 +1,3 @@
-project = "hello world"
-print(project)
+name = input("what is your name?: ")
+
+print("Hello,",name)
