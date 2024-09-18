@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+s
 int main(void){
     float income, rent, utilities, grocereis, transportation, savings, expenses, spend;
     float prent, putilities, pgroceries, ptransportation, psaving, pexpenses;
