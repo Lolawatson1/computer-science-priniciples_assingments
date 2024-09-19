@@ -1,16 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
-char name[50]  
-printf("please tell me your name: \n");
-scanf("%49s", name);
-printf("<<< %s >>>\n", name);
-printf("((( %s )))\n", name);
-printf("--- %s ---\n", name);
-printf(":) :) %s :) :)\n", name);
-printf("### %s ###\n", name);
-printf("+++ %s +++\n", name);
-printf("~~~ %s ~~~\n", name);
-printf("=== %s ===\n", name);
+char fname[50];
+char fname[] = ">>>";
+char prefix[] = "<<<";
+printf("please tell me your name: ");
+scanf("%s", fname);
+strcat(prefix,fname);
+printf("%s\n",prefix);
 return 0;
 }
