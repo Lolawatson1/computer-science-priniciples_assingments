@@ -1,3 +1,9 @@
-name = input("what is your name?: ")
-
-print(f"<<<",name">>>")
+name = input("What is your name?: ")
+print("<<<" ,name, ">>>")
+print("(((" ,name, ")))")
+print("---", name, "---")
+print(":) :)", name, ":) :)")
+print("###", name, "###")
+print("+++", name, "+++")
+print("~~~", name, "~~~")
+print("===", name, "===")
