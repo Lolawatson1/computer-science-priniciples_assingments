@@ -1,9 +1,3 @@
 name = input("What is your name?: ")
-print("<<<" ,name, ">>>")
-print("(((" ,name, ")))")
-print("---", name, "---")
-print(":) :)", name, ":) :)")
-print("###", name, "###")
-print("+++", name, "+++")
-print("~~~", name, "~~~")
-print("===", name, "===")
+nameDecoration = f"<<< {name} >>>"
+print(nameDecoration)
