@@ -2,12 +2,13 @@
 #include <string.h>
 
 int main(void){
-char fname[50];
-char fname[] = ">>>";
-char prefix[] = "<<<";
-printf("please tell me your name: ");
-scanf("%s", fname);
-strcat(prefix,fname);
-printf("%s\n",prefix);
+char name [20];
+char sentence [400];
+printf("What is your name?: \n");
+scanf("%s", name);
+strcat(sentence, "<<<");
+strcat(sentence, name);
+strcat(sentence, ">>>");
+printf("%s", sentence);
 return 0;
 }
