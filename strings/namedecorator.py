@@ -1,3 +1,3 @@
 name = input("What is your name?: ")
-nameDecoration = f"<<< {name} >>>"
-print(nameDecoration)
+decoration = input("what do you want your name decoration to be:")
+print (decoration,name,decoration)
