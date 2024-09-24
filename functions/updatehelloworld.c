@@ -1,6 +1,9 @@
 #include <stdio.h>
+void hello(char type[]){
+printf("hello");
+}
 
 int main(void){
-    printf("Hello world");
+hello("maria",hello);
     return 0;
 }
