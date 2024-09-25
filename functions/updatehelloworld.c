@@ -1,9 +1,10 @@
 #include <stdio.h>
-void hello(char type[]){
-printf("hello");
+void intro(char type[]) {
+    printf("hello", type);
 }
 
 int main(void){
-hello("maria",hello);
+    
+printf(type, "maria");
     return 0;
 }
