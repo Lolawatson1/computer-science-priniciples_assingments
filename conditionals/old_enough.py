@@ -1,4 +1,4 @@
-age = 
+age = 20
 if age >= 18:
     print("You are old enough to vote.")
 elif age >= 16:
@@ -8,4 +8,4 @@ elif age >= 15:
 elif age >= 5:
     print("You are old enough to go to school.")
 else:
-    print("You are to young to go.")
+    print("You are to young to go to school.")
