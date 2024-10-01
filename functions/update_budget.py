@@ -1,3 +1,7 @@
+def input(type, var):
+    print("Monthly{input}:\n",type)
+
+
 print("Hello, and welcome to your financial calculator!\n")
 income=float(input("What is your monthly income:"))
 rent=float(input("What is your monthly rent: "))
