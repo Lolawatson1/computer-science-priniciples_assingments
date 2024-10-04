@@ -2,6 +2,7 @@ print("Hello, and welcome to your financial calculator!\n")
 
 def answer(inputs):
     question = float(input(f"What is your monthly{inputs}?\n"))
+    
     return question
 
 income= answer("income")
